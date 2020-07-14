@@ -1,0 +1,21 @@
+footer{
+    background-color: #343a40;
+}
+.row{
+    margin-bottom: 20px;
+}
+h3, p,a{
+    color:white;
+    text-align: center;
+}
+h3{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+img{
+    height: 40px;
+}

@@ -1,0 +1,95 @@
+.carrusel{
+    margin-bottom: 10px;
+}
+.container-fluid {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img.imgIni{
+    width: 80%; height: 350px;
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+#logo{
+    font: bold 200% verdana;
+}
+body {
+    flex-direction: column;
+    height: 100%;
+    width: 100%
+}
+
+img.imgCarrusel {
+    width: 100%; height: 300px;
+}
+.img-seccion{
+    width: 100%; height: 300px;
+}
+img.imgIcon{
+    width: 50px;height: 50px;
+}
+a{
+    color: white;
+    font: 100% verdana;
+}
+#Cotize{
+    color: yellow;
+}
+#secciongaleria{
+    /*width: 35%;*/
+    height: 30%;
+}
+#sp-galeria{
+    padding: 5px;
+    background: #ffff;
+}
+footer{
+    background: #000000;
+    color:aliceblue;
+}
+
+.infoInicio>*{
+    justify-content: center;
+    flex: 1 1 0px;
+    padding: 30px;
+ 
+
+}
+/*
+.card-columns {
+    @include media-breakpoint-only(sm) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(d) {
+        column-count: 1;
+      }
+  }*/
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+/*
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
